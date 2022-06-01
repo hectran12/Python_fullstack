@@ -1,0 +1,111 @@
+- Kiểu dữ liệu văn bản
+
+string (str)
+
+```python
+a = "Hello"
+print(type(a))
+```
+
+- Kiểu dữ liệu số
+
+integer(int)
+
+```python
+a = 10
+print(type(a))
+```
+
+float
+
+```python
+a = 2.5
+print(type(a))
+```
+
+complex
+
+```python
+a = complex(1j)
+print(type(a))
+```
+
+- Kiểu dữ liệu mảng
+
+tuple
+
+```python
+myTuple = ("Táo","Chuối","Kem")
+print(type(myTuple))
+```
+
+range
+
+```python
+myRange = range(10)
+print(type(myRange))
+```
+
+- Kiểu dữ liệu hiển thị JSON
+
+dict
+
+```python
+myJson = {'FullName':'Trong Hoa','Age':13}
+print(type(myJson))
+```
+
+- Kiểu dữ liệu SET
+
+set
+
+```python
+mySet = {'Chuoi','DauTay','DauTam'}
+print(type(mySet))
+```
+
+frozenset
+
+```python
+myFrozenSet = frozenset({'Chuoi','DauTay','DauTam'})
+print(type(myFrozenSet))
+```
+
+- Kiểu dữ liệu Boolean
+
+bool
+
+```python
+isActive = False
+print(type(isActive))
+isActive = True
+print(type(isActive))
+```
+
+- Kiểu dữ liệu nhị phân
+
+bytes
+
+```python
+myNumber = 5
+Bytes = bytes(myNumber)
+print(type(Bytes))
+```
+
+byte array
+
+```python
+myNumber = 5
+Bytes_arr = bytearray(myNumber)
+print(type(Bytes_arr))
+```
+
+Memory view
+
+```python
+myNumber = 5
+Memoryview = memoryview(bytes(myNumber))
+print(type(Memoryview))
+```
+
+# **CHUYỂN ĐỔI KIỂU DỮ LIỆU**
