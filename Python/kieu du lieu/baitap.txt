@@ -1,0 +1,9 @@
+- Sửa lỗi đoạn mã sau cho hợp lệ
+
+Đề bài yêu cầu công hai biến a và b lại với nhau rồi in ra kết quả dưới dạng integer
+
+CODE CẦN SỬA:
+a = "5"
+b = "10"
+c = a + b
+print(c)
