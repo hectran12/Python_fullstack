@@ -1,0 +1,5 @@
+Như bạn đã biết số trong python có ba loại:
+
+- integer (int)
+- float
+- complex ( số phức )
