@@ -1,0 +1,1 @@
+Khi gán một kí tự hay một số cho biến, thì nó sẽ tự xác định kiểu dữ liệu, - Nhưng đối với python, bạn có thể định nghĩa kiểu dữ liệu cho nó bằng cách chuyển đổi
