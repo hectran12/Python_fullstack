@@ -1,0 +1,79 @@
+Như đã nói từ trước chuỗi là một kiểu dữ liệu trong python, được viết như sau:
+
+```python
+thisString = "Hello"
+print(type(thisString))
+thisString = 'Hello'
+print(type(thisString))
+
+print("Toi la mot chuoi do hahaha")
+print("Toi cung vay ma nguoi ae")
+```
+
+Chuỗi có thể để trong dấu nháy kép (”) hoặc dấu nháy đơn (’)
+
+- Nếu cảm thấy quá bất tiện trong việc print nhiều lần trong nhiều lines thì python có hỗ trợ cho bạn như sau:
+
+```python
+# cách thông thường
+print("Xin chào tớ là Hòa")
+print("Tớ năm nay 13 tuổi")
+print("Sống tại đâu đó")
+# cách ngắn gọn hơn
+print("""Xin chào tớ là Hòa
+Tớ năm nay 13 tuổi
+Sống tại đâu đó""")
+```
+
+Bạn có thể viết nhiều dòng bằng cách để “””vào trước và “”” vào sau và tương tự với dấu ‘’’
+
+Tương tự vậy và nó hoàn toàn có thể kết hợp với biến
+
+```python
+myProfile = """Xin chào tớ là Hòa
+Tớ năm nay 13 tuổi
+Sống tại đâu đó"""
+myGF = '''Xin chào tớ là AIDO
+Tớ năm nay 99 tuổi
+Sống tại đâu đó'''
+print(myProfile)
+
+```
+
+# **QUY TẮC VỀ DẤU NHÁY KÉP VÀ DẤU NHÁY ĐƠN**
+
+```python
+# Dấu nháy kép (") có thể chứa được dấu nháy đơn (')
+print("Xin chào my name is 'HoA'")
+# Và ngược lại
+print('Xin chào my name is "Hoa"')
+
+# Ngoài ra có thể lòng nháy kép vào nháy kép bằng cách
+print("Xin chào my name is \"Hoa\"")
+# Tương tự vậy với nháy đơn
+print('Xin chào my name is \'Hoa\'')
+```
+
+# **TRONG PYTHON, CHUỖI CŨNG ĐƯỢC ĐỊNH NGHĨA LÀ MẢNG**
+
+- Khi bạn viết ra một dòng chữ, sẽ có từng con số được gọi là vị trí cho từng chữ đó:
+
+```python
+myString = "Hello"
+#vi tri:    01234
+```
+
+Nói một cách chuyên sau: Chuỗi là mảng byte đại diện cho các ký tự unicode
+
+Bạn cũng có thể lấy ra kí tự đó, khi biết vị trí cụ thể bằng cách:
+
+myString = "Hello"
+# output
+print(myString[0]) # H 
+print(myString[1]) # e 
+print(myString[2]) # l 
+print(myString[3]) # l 
+print(myString[4]) # o
+# output
+myLocal = myString[0]+myString[1]+myString[2]+myString[3]+myString[4] # Hello
+print(myLocal) # Hello 
