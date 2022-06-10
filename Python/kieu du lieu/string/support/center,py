@@ -1,0 +1,4 @@
+# center() - Căn giữa chuỗi
+print("Trong Hoa".center(20)) #     Trong Hoa      
+print("Trong Hoa".center(20,"-")) #-----Trong Hoa------
+                                  #01234567890123456789
